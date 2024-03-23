@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hangman</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #keyboard {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hangman</h1>
+  <div id="word"></div>
+  <div id="guesses"></div>
+  <div id="keyboard">
+    <button onclick="guess('a')">A</button>
+    <button onclick="guess('b')">B</button>
+    <button onclick="guess('c')">C</button>
+    <button onclick="guess('d')">D</button>
+    <button onclick="guess('e')">E</button>
+    <button onclick="guess('f')">F</button>
+    <button onclick="guess('g')">G</button>
+    <button onclick="guess('h')">H</button>
+    <button onclick="guess('i')">I</button>
+    <button onclick="guess('j')">J</button>
+    <button onclick="guess('k')">K</button>
+    <button onclick="guess('l')">L</button>
+    <button onclick="guess('m')">M</button>
+    <button onclick="guess('n')">N</button>
+    <button onclick="guess('o')">O</button>
+    <button onclick="guess('p')">P</button>
+    <button onclick="guess('q')">Q</button>
+    <button onclick="guess('r')">R</button>
+    <button onclick="guess('s')">S</button>
+    <button onclick="guess('t')">T</button>
+    <button onclick="guess('u')">U</button>
+    <button onclick="guess('v')">V</button>
+    <button onclick="guess('w')">W</button>
+    <button onclick="guess('x')">X</button>
+    <button onclick="guess('y')">Y</button>
+    <button onclick="guess('z')">Z</button>
+  </div>
+  <button onclick="start()">Start</button>
+  <script src="hangman.js"></script>
+</body>
+</html>

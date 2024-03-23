@@ -1,0 +1,78 @@
+/* CSS for all games */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  /* 2048 game styles */
+  #game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  
+
+  /* Dots and Boxes game styles */
+  #game-canvas {
+    margin-top: 20px;
+    border: 1px solid #000;
+  }
+  
+  /* Snake game styles */
+  #game-canvas.snake {
+    margin-top: 20px;
+    border: 1px solid #000;
+  }
+  
+  /* Hangman game styles */
+  #hangman-word {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  #hangman-guesses {
+    margin-top: 10px;
+  }
+  
+  /* Tic Tac Toe game styles */
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-top: 20px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+  }
+  
